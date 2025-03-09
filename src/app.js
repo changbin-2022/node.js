@@ -22,6 +22,12 @@ app.get('/katya', (req, res) => {
      });
 });
 
+app.get('/varya', (req, res) => {
+    res.render('varya', { 
+        title: 'ІС-33 Каленіченко Варвара',
+     });
+});
+
 app.get('*', (req, res) => {
     res.render('404', {
         title: "404",
