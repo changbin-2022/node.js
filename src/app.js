@@ -28,6 +28,12 @@ app.get('/varya', (req, res) => {
      });
 });
 
+app.get('/maksym', (req, res) => {
+    res.render('maksym', { 
+        title: 'ІС-31 Гармаш Максим',
+     });
+});
+
 app.get('*', (req, res) => {
     res.render('404', {
         title: "404",
