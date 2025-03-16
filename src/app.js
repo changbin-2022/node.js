@@ -34,6 +34,12 @@ app.get('/maksym', (req, res) => {
      });
 });
 
+app.get('/sonya', (req, res) => {
+    res.render('sonya', { 
+        title: 'ІС-31 Михайлова Софія',
+     });
+});
+
 app.get('/vlad', (req, res) => {
     res.render('vlad', {
         title: 'ІС-34 Бакунець Владислав',
