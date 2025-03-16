@@ -24,6 +24,10 @@ header a {
     width: 450px;
 }
 
+#carti {
+    width: 350px;
+}
+
 .student-list {
     list-style: none;
     padding: 0;

@@ -34,6 +34,12 @@ app.get('/maksym', (req, res) => {
      });
 });
 
+app.get('/vlad', (req, res) => {
+    res.render('vlad', {
+        title: 'ІС-34 Бакунець Владислав',
+    });
+});
+
 app.get('*', (req, res) => {
     res.render('404', {
         title: "404",
